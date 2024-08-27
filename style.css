@@ -1,0 +1,164 @@
+
+.navbar {
+    background-color: #2E8B57; 
+    padding: 10px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #FFFFFF; 
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #dff5bc; 
+}
+
+
+body {
+    background-color: #E6F7E9; 
+    color: #1e9471;
+    text-align: center;
+    font-size: 35px;
+}
+.gros-titre {
+    font-size: 100px;
+}
+
+
+header h1, section h3, section h4 {
+    color: #216d57; 
+} 
+
+
+section {
+    background-color: #FFFFFF; 
+    border: 2px solid #2E8B57;
+}
+
+
+a {
+    color: #2E8B57;
+}
+
+a:hover {
+    color: #ADFF2F;
+}
+
+
+.background img {
+    max-width: 100 px; 
+    border-radius: 50%;
+    border: 3px solid #2E8B57;
+}
+
+body {
+    font-family: 'didot', serif; 
+}
+.navbar a {
+    font-family: 'Grey Qo', sans-serif;
+}
+
+.Photodemoicreepy {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-right: 20px; 
+}
+
+
+.gif-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+
+.full-screen-gif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+
+.gros-titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e2f4cf;
+    font-size: 3em;
+    text-align: center;
+    z-index: 2; 
+}
+
+
+
+.section-with-texture {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2; 
+}
+
+.section-with-texture::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bois.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2; 
+    z-index: 1; 
+    pointer-events: none; 
+    border-radius: 8px; 
+}
+
+
+
+body {
+    cursor: url('../images/curseur souris verte.png'), auto;
+
+    .sparkle {
+    position: absolute;
+    background-color: #b8eabb; 
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    z-index: 9999; 
+}
+
+@keyframes sparkle-animation {
+    to {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+}
