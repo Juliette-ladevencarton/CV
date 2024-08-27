@@ -142,7 +142,7 @@ body {
 
 
 body {
-    cursor: url('../images/curseur souris verte.png'), auto;
+    cursor: url('curseur souris verte.png'), auto;
 
     .sparkle {
     position: absolute;
